@@ -1,0 +1,74 @@
+#page-create-orphanage {
+  display: flex;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+a.create-orphanage {
+  position: absolute;
+  right: 4rem;
+  bottom: 4rem;
+
+  z-index: 500;
+
+  width: 6.4rem;
+  height: 6.4rem;
+  background: #15c3d6;
+  border: 0;
+  border-radius: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color 200ms;
+}
+
+a.create-orphanage:hover {
+  background: #17d6eb;
+}
+
+.map-container {
+  margin: 0 0 4rem;
+}
+
+.map-container .leaflet-container {
+  border-radius: 20px 20px 0 0;
+}
+
+.map-container footer {
+  background: #f5f8fa;
+  border-radius: 0 0 20px 20px;
+}
+
+a.inicio {
+  position: absolute;
+  right: 4rem;
+  top: 4rem;
+
+  z-index: 501;
+
+  width: 7rem;
+  height: 4.8rem;
+  background: #15c3d6;
+  border: 0;
+  border-radius: 1.6rem;
+
+  text-decoration:none;
+  color:white;
+  font: 700 2.2rem 'Nunito', sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color 200ms;
+  
+}
+
+a.inicio:hover {
+  background: #17d6eb;
+}

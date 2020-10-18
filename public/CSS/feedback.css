@@ -1,0 +1,94 @@
+#feedback {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+
+  legend {
+      text-align: center;
+  }
+
+  legend p {
+    font: 400 clamp(2rem, 2vw, 3.6rem)/1.1 "Nunito", sans-serif;
+    text-align: center;
+}
+
+  
+ /* a.create-orphanage {
+    position: absolute;
+    right: 4rem;
+    bottom: 4rem;
+  
+    z-index: 500;
+  
+    width: 6.4rem;
+    height: 6.4rem;
+    background: #15c3d6;
+    border: 0;
+    border-radius: 2rem;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    transition: background-color 200ms;
+  } */
+  
+  a.create-orphanage:hover {
+    background: #17d6eb;
+  }
+  
+  
+  a.inicio {
+    position: absolute;
+    right: 4rem;
+    top: 4rem;
+  
+    z-index: 501;
+  
+    width: 7rem;
+    height: 4.8rem;
+    background: #15c3d6;
+    border: 0;
+    border-radius: 1.6rem;
+  
+    text-decoration:none;
+    color:white;
+    font: 700 2.2rem 'Nunito', sans-serif;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    transition: background-color 200ms;
+    
+  }
+  
+  a.inicio:hover {
+    background: #17d6eb;
+  }
+
+  #enviar {
+    margin-top: 2.4rem;
+    width: 100%;
+    height: 6.4rem;
+    border: 0;
+    cursor: pointer;
+    background: #3cdc8c;
+    border-radius: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    transition: background-color 0.2s;
+  
+    text-decoration: none;
+  }
+  
+  #enviar:hover {
+    background: #36cf82;
+  }
